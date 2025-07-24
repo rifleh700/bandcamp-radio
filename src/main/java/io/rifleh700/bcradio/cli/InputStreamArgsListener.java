@@ -20,6 +20,9 @@ public class InputStreamArgsListener implements Runnable {
 
         Scanner scanner = new Scanner(is);
 
+        //print syntax
+        handler.handle(new String[]{});
+
         while (true) {
 
             if (Thread.interrupted()) {
